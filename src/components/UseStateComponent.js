@@ -1,6 +1,7 @@
-import React, { useState } from 'react'
+import React, {  useState } from 'react'
 
 export const UseStateComponent = () => {
+    
     const [count,setCount]=useState(0)
 
     const handleAdd = ()=> {
@@ -12,7 +13,7 @@ export const UseStateComponent = () => {
     const handleReset = ()=> {
         setCount(0)
     }
-
+    
   return (
     <div>
         <h1>Use state hook goes here... </h1>
